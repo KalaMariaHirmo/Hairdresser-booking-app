@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:id="@+id/hairdressergroup"
+                android:tag="1"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonHairdresser1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="1"
+                    android:text="@string/Juuksur1" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonHairdresser2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="2"
+                    android:text="@string/Juuksur2" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonHairdresser3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="3"
+                    android:text="@string/Juuksur3" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonHairdresser4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="4"
+                    android:text="@string/Juuksur4" />
+            </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choosedate"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CalendarView
+                    android:id="@+id/CalendarView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:firstDayOfWeek="2"
+                    android:maxDate="04/03/2020"
+                    android:minDate="02/03/2020" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/timegroup"
+                android:tag="0">
+
+                <RadioButton
+                    android:id="@+id/radioButtonTime0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="0"
+                    android:text="@string/time0" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTime1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="1"
+                    android:text="@string/time1" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTime2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="2"
+                    android:text="@string/time2" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTime3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="3"
+                    android:text="@string/time3" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTime4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="4"
+                    android:text="@string/time4" />
+                <RadioButton
+                    android:id="@+id/radioButtonTime5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="5"
+                    android:text="@string/time5" />
+                <RadioButton
+                    android:id="@+id/radioButtonTime6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="6"
+                    android:text="@string/time6" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTime7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="7"
+                    android:text="@string/time7" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTime8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="8"
+                    android:text="@string/time8" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTime9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="9"
+                    android:text="@string/time9" />
+
+            </RadioGroup>
+
+
+
+                <TextView
+                    android:id="@+id/HairdresserText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/DateText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/TimeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/buttonConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

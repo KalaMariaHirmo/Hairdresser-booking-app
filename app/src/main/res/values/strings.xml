@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Holgeri Juuksur</string>
+    <string name="choose">Select a hairdresser</string>
+    <string name="Juuksur1">Big Pete</string>
+    <string name="Juuksur2">Obama Bin Laden</string>
+    <string name="Juuksur3">Some dude named Brenda</string>
+    <string name="Juuksur4">That one guy</string>
+    <string name="choosedate">Select the date and time</string>
+    <string name="choosetime">Select time</string>
+
+    <string name="time0">10:00</string>
+    <string name="time1">11:00</string>
+    <string name="time2">12:00</string>
+    <string name="time3">13:00</string>
+    <string name="time4">14:00</string>
+    <string name="time5">15:00</string>
+    <string name="time6">16:00</string>
+    <string name="time7">17:00</string>
+    <string name="time8">18:00</string>
+    <string name="time9">19:00</string>
+    <string name="confirm">CONFIRM</string>
+</resources>
